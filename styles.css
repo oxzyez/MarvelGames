@@ -1,0 +1,352 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #b30505;
+}
+
+.phet {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.phet ul li a:hover {
+    text-decoration: underline #ff2600;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #850101;
+    z-index: 1;
+    border-bottom:1px solid #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 800;
+    font-size: 75px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 10%;
+    text-shadow: black;
+}
+
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 45;
+    font-size: px;
+    margin-top: 0;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 0;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+a.play-button {
+    background: #ff2c10;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.play-button:hover {
+    background: #858176;
+    text-decoration: none;
+}
+
+.play {
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+a.HTP {
+    background: #686660;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.HTP:hover {
+    background: #ff2c10;
+    text-decoration: none;
+}
+
+.image-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.images-card {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.images-card img {
+    width: 100%;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+}
+
+#About {
+    background: #b30505;
+    padding:50px 0px 50px 0px;
+}
+
+.tentang-section {
+    text-align: center;
+    width: 100%;
+}
+
+.tentang-section p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.tentang-section .description {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #c4c1c1;
+}
+
+.tentang-section img {
+    width: 40%;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+}
+
+.tentang-section .p {
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#contact {
+    background: #970606;
+    padding: 50px 0px 50px 0px;
+}
+
+.kontak {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.kontak-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+
+div .kontak-section li {
+    list-style-type: none;
+    float: left;
+    line-height: 60px;
+}
+
+h4 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: lightslategray;
+    width: 100%;
+    line-height: 50px;
+}
+
+.how-section {
+    text-align: center;
+    width: 100%;
+}
+
+.how-section p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.how-section .description {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #c4c1c1;
+}
+
+.how-section img {
+    width: 40%;
+    border-radius: 10%;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+.login-area {
+    text-align: center;
+}
+
+.name,
+.email {
+    width: 30%;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #970606;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+.massage {
+    width: 50%;
+    text-align: center;
+    padding: 90px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #970606;
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.name::placeholder,
+.email::placeholder,
+.massage::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.name:focus,
+.email:focus,
+.massage:focus {
+    background-color: #970606;
+}
+
+.submit {
+    width: 150px;
+    padding: 10px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    outline: none;
+    margin: 10px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color:  #7a0000;
+}
+
+.text {
+    padding: 5cm;
+    margin-left: 4cm;
+}
+
+h4 {
+    font-family:'Fira Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.button {
+    width: 5cm;
+    margin-left: 16cm;
+    margin-top: -5cm;
+}
